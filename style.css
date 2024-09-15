@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    width: 100vw;
+    overflow: hidden;
+}
+.page1{
+     height: 100vh;
+    width: 100vw; 
+     background: radial-gradient(#ffaeaf, #ffc096, #fffaf6); 
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+nav ul{
+    display: flex;
+    gap: 25px;
+}
+nav ul li{
+    list-style: none;
+    font-size: 20px;
+}
+h3{
+    font-family: "Alegreya", serif;
+    font-size: 120px;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 20px;
+}
+h4{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.page1 div{
+    display: flex;
+    justify-content: space-between;
+    margin:0 30px ;
+}
+.page1 div img{
+    height: 210px;
+    width: 200px;
+}
+.oval{
+    width: 300px;
+    height: 120px;
+    background: transparent;
+    border: 1px solid gray ;
+    border-radius: 50%;
+}
+.oval h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 50px;
+    font-family: cursive;
+    color: rgb(108, 130, 139);
+}
+.page2 h1{
+    padding: 30px;
+    font-size: 40px;
+    font-family: "Alegreya", serif;
+    font-weight: 200;
+}
+.card{
+    display: flex;
+    padding: 40px;
+}
+.card .first{
+    height: 75vh;
+    width: 24vw;
+    border: 1px solid black;
+}
+.card .second{
+    height: 75vh;
+    width: 24vw;
+    border: 1px solid black;
+}
+.card .third{
+    height: 75vh;
+    width: 24vw;
+    border: 1px solid black;
+}
+.card .fourth{
+    height: 75vh;
+    width: 24vw;
+    border: 1px solid black;
+}
+.card img{
+    height: 40vh;
+    width: 22vw;
+}
+.card h4{
+    font-weight: 900;
+}
+.card button{
+    padding: 10px 20px;
+    margin-left: 50px;
+    background: transparent;
+}
+.page3{
+    display: flex;
+}
+.page3 .left{
+    height: 100vh;
+    width: 40vw;
+    /* background-color: firebrick; */
+}
+.page3 .left h1{
+    padding: 100px;
+    font-family: "Alegreya", serif;
+    word-spacing: 5px;
+}
+.page3 .left p{
+    padding: 0 100px;
+    word-spacing: 5px;
+    line-height: 30px;
+}
+.page3 .left button{
+    padding: 6px 12px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ffb75f;
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.page3 .right{
+    height: 100vh;
+    width: 60vw;
+}
+.page3 .right img{
+    position: relative;
+}
+.page3 .right .first{
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    top: 250%;
+}
+.page3 .right .second{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 230%;
+    left: 59%;
+}
+.page3 .right .third{
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    top: 258%;
+    left: 80%;
+}
