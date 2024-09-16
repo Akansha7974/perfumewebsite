@@ -162,3 +162,87 @@ h4{
     top: 258%;
     left: 80%;
 }
+.page4 h1{
+    font-size: 60px;
+    font-family: "Alegreya", serif;
+    word-spacing: 5px;
+    font-weight: 200;
+    padding: 30px;
+    text-align: center
+}
+.page4{
+     height: 100vh; 
+    width: 100vw;
+    overflow: hidden;
+    background-color: #f8f8f8;
+}
+.perfumecard{
+    display: flex; 
+    justify-content: space-evenly;
+    white-space: nowrap;
+     animation: perfumecard 12s infinite linear; 
+}
+.perfumecard1{
+    height: 60vh;
+    width: 18vw;
+    border: 1px solid black;
+    border-radius: 200px 200px 0px 0px;
+}
+.perfumecard2{
+    height: 60vh;
+    width: 18vw;
+    border: 1px solid black;
+    border-radius: 200px 200px 0px 0px;
+}
+.perfumecard3{
+    height: 60vh;
+    width: 18vw;
+    border: 1px solid black;
+    border-radius: 200px 200px 0px 0px;
+}
+.perfumecard4{
+    height: 60vh;
+    width: 18vw;
+    border: 1px solid black;
+    border-radius: 200px 200px 0px 0px;
+}
+.perfumecard5{
+    height: 60vh;
+    width: 18vw;
+    border: 1px solid black;
+    border-radius: 200px 200px 0px 0px;
+}
+.perfumecard img{
+    height: 46vh;
+    width: 22vw;
+    position: absolute;
+    top: 20%;
+}
+
+ @keyframes perfumecard{ 
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: translate(-100%);
+    }
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+footer .first h5{
+    padding: 20px;
+}
+footer h5{
+    font-size: 20px;
+    font-weight: 300;
+}
+footer p{
+    padding: 20px;
+}
