@@ -109,6 +109,8 @@ h4{
     background: transparent;
 }
 .page3{
+    height: 100vh;
+    width: 100vw;
     display: flex;
 }
 .page3 .left{
@@ -180,7 +182,7 @@ h4{
     display: flex; 
     justify-content: space-evenly;
     white-space: nowrap;
-     animation: perfumecard 12s infinite linear; 
+     animation: perfumecard 5s infinite linear; 
 }
 .perfumecard1{
     height: 60vh;
@@ -245,4 +247,109 @@ footer h5{
 }
 footer p{
     padding: 20px;
+}
+
+
+@media (max-width: 600px){
+    nav ul{
+        display: none;
+    }
+    .page1 div{
+        display: none;
+    }
+    .card{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .card img{
+        height: 46vh;
+        width: 65vw;
+    }
+    .card .first{
+        height: 70vh;
+        width: 70vw;
+    }
+    .card .second{
+        height: 70vh;
+        width: 70vw;
+    }
+    .card .third{
+        height: 70vh;
+        width: 70vw;
+    }
+    .card .fourth{
+        height: 70vh;
+        width: 70vw;
+    }
+    .card button{
+        padding: 10px 20px;
+        margin-left: 70px;
+    }
+    .page3{
+        flex-direction: column;
+    }
+    .page3 .left h1{
+        padding: 20px;
+    }
+    .page3 .left p{
+        padding: 0 20px;
+    }
+    .page3 .left button{
+        margin-left: 20px;
+    }
+    .page3 .right .first{
+        height: 180px;
+        width: 160px;
+        position: absolute;
+        top: 460%;
+        left: 50%;
+    }
+    .page3 .right .second{
+        height: 170px;
+        width: 150px;
+        position: absolute;
+        top: 430%;
+        left: 59%;
+    }
+    .page3 .right .third{
+        height: 220px;
+        width: 200px;
+        position: absolute;
+        top: 490%;
+        left: 60%;
+    }
+    .perfumecard1{
+        height: 40vh;
+        width: 24vw;
+    }
+    .perfumecard2{
+        height: 40vh;
+        width: 24vw;
+    }
+    .perfumecard3{
+        height: 40vh;
+        width: 24vw;
+    }
+    .perfumecard4{
+        height: 40vh;
+        width: 24vw;
+    }
+    .perfumecard5{
+        height: 40vh;
+        width: 24vw;
+    }
+    .perfumecard img{
+        height: 30vh;
+        width: 22vw;
+        position: absolute;
+        top: 20%;
+    }
+    footer{
+        text-align: center;
+        flex-direction: column;
+    }
+    footer h5{
+        font-size: 30px;
+        font-weight: 600;
+    }
 }
